@@ -1,4 +1,3 @@
-```markdown
 # Password Validation Challenge – React Implementation
 
 ## Overview
@@ -7,16 +6,15 @@ This project implements a **Create User** form in React with both client-side an
 ---
 
 ## Project Structure
-```
 
+```
 src/
 ├── app.tsx                 # Main app component with success state
 ├── create-user-form.tsx    # Form component (main implementation)
 ├── main.tsx                # Entry point
 ├── style.css               # Global styles
 └── vite-env.d.ts           # Vite environment types
-
-````
+```
 
 ---
 
@@ -85,9 +83,10 @@ Additional UX improvements:
 - npm or yarn
 
 ### Installation
+
 ```sh
 npm install
-````
+```
 
 ### Start Development Server
 
@@ -130,27 +129,27 @@ This component manages:
 
 **State**
 
-* `username`, `password`
-* `clientErrors` for validation issues
-* `apiError` for server responses
-* `loading`
-* `submitted`
+- `username`, `password`
+- `clientErrors` for validation issues
+- `apiError` for server responses
+- `loading`
+- `submitted`
 
 **Validation**
 
-* `validatePassword()` checks all rules and returns failed criteria
+- `validatePassword()` checks all rules and returns failed criteria
 
 **Event Handlers**
 
-* `handleUsernameChange()`
-* `handlePasswordChange()`
-* `handleSubmit()` sends the request, processes responses, and updates UI
+- `handleUsernameChange()`
+- `handlePasswordChange()`
+- `handleSubmit()` sends the request, processes responses, and updates UI
 
 ### Error Display
 
-* Validation errors appear in a `<ul>` under the password input
-* API errors appear in a separate `<div>` under both inputs
-* Username error appears under the username field
+- Validation errors appear in a `<ul>` under the password input
+- API errors appear in a separate `<div>` under both inputs
+- Username error appears under the username field
 
 ---
 
@@ -158,10 +157,10 @@ This component manages:
 
 Inline style objects at the bottom of `create-user-form.tsx` define:
 
-* `formWrapper`
-* `form`
-* `formInput`
-* `formButton`
+- `formWrapper`
+- `form`
+- `formInput`
+- `formButton`
 
 Errors use inline styling as well. No external styling libraries or modified CSS classes.
 
@@ -169,17 +168,14 @@ Errors use inline styling as well. No external styling libraries or modified CSS
 
 ## Notes
 
-* Only React is used, no extra dependencies
-* All error messages follow the exact wording required
-* Accessibility follows WCAG recommendations
+- Only React is used, no extra dependencies
+- All error messages follow the exact wording required
+- Accessibility follows WCAG recommendations
 
 ---
 
 ## Install Dependencies
 
-```
+```sh
 npm install
-```
-
-```
 ```
